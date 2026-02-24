@@ -1,0 +1,18 @@
+package test;
+
+public class assignq18 {
+    public static void main(String[] args) {
+      try {
+            int a = 10;
+            int b = 0;
+           
+            int c = a / b;   
+            System.out.println(c);
+        }
+        catch (Exception e) {
+            System.out.println("Error handled: " + e);
+        }
+
+        System.out.println("Program continues...");
+    }
+}
