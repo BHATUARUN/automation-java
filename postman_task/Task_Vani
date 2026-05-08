@@ -1,0 +1,536 @@
+{
+  "info": {
+    "_postman_id": "9e750cf2-b052-4d8c-9420-b2fc0d1b1593",
+    "name": "TASK",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52693828",
+    "_collection_link": "https://go.postman.co/collection/52693828-9e750cf2-b052-4d8c-9420-b2fc0d1b1593?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Regester",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "29",
+              "type": "text",
+              "uuid": "fa416d20-31d6-4532-82f9-db67ae30e6b1"
+            },
+            {
+              "key": "name",
+              "value": "uday\n",
+              "type": "text",
+              "uuid": "9704cbf9-bb34-4e63-ba1c-a830074ba5bd"
+            },
+            {
+              "key": "email",
+              "value": "uday@gmail.com\n",
+              "type": "text",
+              "uuid": "52ac9522-07b9-4510-be79-86e0e73eb2bb"
+            },
+            {
+              "key": "phone",
+              "value": "987465283",
+              "type": "text",
+              "uuid": "82ae8e85-ed67-43c3-a03b-9a5e43d20514"
+            },
+            {
+              "key": "password",
+              "value": "963258",
+              "type": "text",
+              "uuid": "76ef818e-a8d3-4a54-b282-27a3de173fad"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/abhay/c_user_signup.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "abhay",
+            "c_user_signup.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "login",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "updata",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Seller Regester",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "1",
+              "type": "text",
+              "uuid": "22f1eb53-3e38-44e8-9d06-9c9273af0742"
+            },
+            {
+              "key": "name",
+              "value": "kuldeep",
+              "type": "text",
+              "uuid": "8bdbede1-0e91-496d-98f8-374bf9456013"
+            },
+            {
+              "key": "email",
+              "value": "kuldeep@gmail.com",
+              "type": "text",
+              "uuid": "5343092e-4862-4b30-90de-4f2c549b4ea5"
+            },
+            {
+              "key": "phone",
+              "value": "9985624713",
+              "type": "text",
+              "uuid": "65a453b4-a14f-4e3f-96ce-c6bb28742448"
+            },
+            {
+              "key": "password",
+              "value": "741852",
+              "type": "text",
+              "uuid": "02774bdc-f7d6-415d-b46c-2950d4430f39"
+            },
+            {
+              "key": "shop_name",
+              "value": "A to Z",
+              "type": "text",
+              "uuid": "9de03e71-11d5-4d3f-82da-aa5412902b29"
+            },
+            {
+              "key": "pincode",
+              "value": "7845963",
+              "type": "text",
+              "uuid": "22057e1e-5556-4f07-81a3-92f7b8c6d3c1"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/abhay/c_seller_signup.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "abhay",
+            "c_seller_signup.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "email",
+              "value": "kuldeep@gmail.com",
+              "type": "text",
+              "uuid": "28661766-d11e-4a68-9093-948afb2a6504"
+            },
+            {
+              "key": "password",
+              "value": "741852",
+              "type": "text",
+              "uuid": "d769365c-24bf-4586-9c23-4e299c3872a8"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/abhay/c_seller_signin.php?email=kuldeep@gmail.com&password=741852",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "abhay",
+            "c_seller_signin.php"
+          ],
+          "query": [
+            {
+              "key": "email",
+              "value": "kuldeep@gmail.com"
+            },
+            {
+              "key": "password",
+              "value": "741852"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "update",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "11",
+              "type": "text",
+              "uuid": "dd74306e-bb4c-4895-aa19-9874fb4bcca6"
+            },
+            {
+              "key": "name",
+              "value": "bhavin",
+              "type": "text",
+              "uuid": "04cd553e-5122-496a-bc2c-fc10a1cd5eeb"
+            },
+            {
+              "key": "email",
+              "value": "bhavin@gmail.com\n",
+              "type": "text",
+              "uuid": "37e5ee75-6526-4a03-8189-c8b6451f28b1"
+            },
+            {
+              "key": "phone",
+              "value": "9984569742",
+              "type": "text",
+              "uuid": "aeb710d8-4a20-47ec-9d75-e6cae2df21ad"
+            },
+            {
+              "key": "password",
+              "value": "3216544",
+              "type": "text",
+              "uuid": "a89e9273-da22-4c41-b161-ae41c2c0fe24"
+            },
+            {
+              "key": "shop_name",
+              "value": "G.B garage",
+              "type": "text",
+              "uuid": "57b40267-f94f-47b0-8f9f-7e75a0e7385e"
+            },
+            {
+              "key": "pincode",
+              "value": "360490",
+              "type": "text",
+              "uuid": "9b3f8cbc-c171-4e2e-8249-b1abe3870b6a"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/abhay/c_seller_update.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "abhay",
+            "c_seller_update.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "View",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "8",
+              "type": "text",
+              "uuid": "50fee3c1-a4ed-48bc-beb6-b514cf7af6e9"
+            },
+            {
+              "key": "id",
+              "value": "10",
+              "type": "text",
+              "uuid": "91c8e88a-705e-4c99-9912-ee54f5bd61d0"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/abhay/c_seller_view.php?id",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "abhay",
+            "c_seller_view.php"
+          ],
+          "query": [
+            {
+              "key": "id",
+              "value": null
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add categories",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Update",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "View",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "44",
+              "type": "text",
+              "uuid": "d7feb5a9-6f53-4e33-a7a3-3f071d697215"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/abhay/c_categories_view.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "abhay",
+            "c_categories_view.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add product",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "15",
+              "type": "text",
+              "uuid": "2a6613a1-3151-401b-816c-6943b41b56e5"
+            },
+            {
+              "key": "name",
+              "value": "sword",
+              "type": "text",
+              "uuid": "95972e5e-fd0b-4789-b785-082abb383dfb"
+            },
+            {
+              "key": "price",
+              "value": "9000",
+              "type": "text",
+              "uuid": "9cadaac0-04cc-4147-a14c-1eee3a3a2afd"
+            },
+            {
+              "key": "description",
+              "value": "brutal",
+              "type": "text",
+              "uuid": "2ccbebee-7f4a-49d4-a20d-aa93dbf0ab45"
+            },
+            {
+              "key": "image",
+              "type": "text",
+              "uuid": "5b0bf3c0-36e8-4e86-9e8c-91d97259d761",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "image",
+              "type": "text",
+              "uuid": "94190ab8-9d6f-421f-996e-70d72b6632c0",
+              "value": "lion.jpg"
+            },
+            {
+              "key": "image",
+              "type": "text",
+              "uuid": "afe90b0c-8779-4444-a879-28bbe66c54f6",
+              "value": "",
+              "disabled": true
+            },
+            {
+              "key": "category_name",
+              "value": "Throne",
+              "type": "text",
+              "uuid": "5014519e-a8e9-4c3a-bf13-55f696f46fc4"
+            },
+            {
+              "key": "product_id",
+              "value": "89",
+              "type": "text",
+              "uuid": "06575c94-45f9-481b-b783-7778b892c15f",
+              "disabled": true
+            },
+            {
+              "key": "feedback",
+              "value": "nice",
+              "type": "text",
+              "uuid": "46f1944b-2528-47b1-8675-8fd5bb8a8ff3",
+              "disabled": true
+            },
+            {
+              "key": "rating",
+              "value": "8",
+              "type": "text",
+              "uuid": "a7cd69b9-663c-412c-8904-436d40e8fab8",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/abhay/c_product_add.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "abhay",
+            "c_product_add.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Product_update",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "product_view",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "wishlist add",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "User ID ",
+              "value": "8",
+              "type": "text",
+              "uuid": "e1ede2f4-ea71-4a3f-91dd-b857e49bc2fa"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/abhay/c_wishlist_product.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "abhay",
+            "c_wishlist_product.php"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
