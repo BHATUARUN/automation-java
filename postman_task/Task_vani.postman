@@ -1,0 +1,507 @@
+{
+  "info": {
+    "_postman_id": "44162b4f-f441-42a4-9a7d-65517e779fd5",
+    "name": "Task_vani",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52693828",
+    "_collection_link": "https://go.postman.co/collection/52693828-44162b4f-f441-42a4-9a7d-65517e779fd5?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "insert",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "insert_workout",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "insert_nutrition",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "7",
+              "type": "text",
+              "uuid": "0ea01124-cb61-4e81-82de-655aec15e8f1"
+            },
+            {
+              "key": "title",
+              "value": "running",
+              "type": "text",
+              "uuid": "29bd2955-9594-4e02-b52a-e70ca2350b3f"
+            },
+            {
+              "key": "description",
+              "value": "brun fat and caleries",
+              "type": "text",
+              "uuid": "b96a8e1d-b7d9-4d0c-904a-441c5cf524eb"
+            },
+            {
+              "key": "calories",
+              "value": "100",
+              "type": "text",
+              "uuid": "a23f7ff8-c331-46a1-a9e3-c4496de95652"
+            },
+            {
+              "key": "protein",
+              "value": "50",
+              "type": "text",
+              "uuid": "a8bc5435-caca-4fa7-88b7-a74447f92aff"
+            },
+            {
+              "key": "carbs",
+              "value": "200",
+              "type": "text",
+              "uuid": "c00a0db1-0920-40bb-a272-3ca476e9917e"
+            },
+            {
+              "key": "fat",
+              "value": "89",
+              "type": "text",
+              "uuid": "eb171629-52a1-420c-8170-eeb0bebcc0d1"
+            },
+            {
+              "key": "duration_days",
+              "value": "25",
+              "type": "text",
+              "uuid": "7b1e5f84-14d4-4977-a0e4-700314f28c0b"
+            },
+            {
+              "key": "created_at",
+              "value": "1/5/2025",
+              "type": "text",
+              "uuid": "f135d1df-7258-4e9b-a544-f9885cae9927"
+            },
+            {
+              "key": "updated_at",
+              "value": "25/5/2025",
+              "type": "text",
+              "uuid": "e74c978b-a181-4ce9-8ff2-c5e463b23441"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/vani/insert_nutrition.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "vani",
+            "insert_nutrition.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "insert_music",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "insert_Activity",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "105465",
+              "type": "text",
+              "uuid": "01e3f84b-2d4b-4fb2-80eb-9ed9c94259f8"
+            },
+            {
+              "key": "user_id",
+              "value": "65",
+              "type": "text",
+              "uuid": "75239f50-c0e9-45fc-bac0-22154616bfe3"
+            },
+            {
+              "key": "steps",
+              "value": "1234",
+              "type": "text",
+              "uuid": "13ab5b7d-2ef7-4ed5-a881-007e594ed799"
+            },
+            {
+              "key": "distance",
+              "value": "5",
+              "type": "text",
+              "uuid": "044dffd0-05cf-48e9-a51d-48110237d55d"
+            },
+            {
+              "key": "duration",
+              "value": "25",
+              "type": "text",
+              "uuid": "218eda0c-c305-4bc0-ad7e-bf7b2c970b0a"
+            },
+            {
+              "key": "calories",
+              "value": "300",
+              "type": "text",
+              "uuid": "f836d85c-8a57-42b0-a75c-69855df8e3d0"
+            },
+            {
+              "key": "activity_date",
+              "value": "2/2/2020",
+              "type": "text",
+              "uuid": "df9af90d-cff8-4f7a-837e-5e8eb999ba7e"
+            },
+            {
+              "key": "created_at",
+              "value": "1/1/2020",
+              "type": "text",
+              "uuid": "75f6d6b4-72c4-4399-b5e3-4c6b68bd0c46"
+            },
+            {
+              "key": "name",
+              "value": "suresh karangiya",
+              "type": "text",
+              "uuid": "ee2f5d7f-b8db-4f9c-8c68-7c1ec3343726"
+            },
+            {
+              "key": "email",
+              "value": "suresh67@gmail.com",
+              "type": "text",
+              "uuid": "bdd42c81-0dc3-4b8a-a9b1-7bf9767664cf"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/vani/insert_acivities.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "vani",
+            "insert_acivities.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "update_user",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "update_nutrition",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "update_music",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete_user",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "View_nutrition",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "19",
+              "type": "text",
+              "uuid": "8d5c1d00-38fe-4e42-b1c6-50f46714288f"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/vani/delete_nutrition.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "vani",
+            "delete_nutrition.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "View_user",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "24",
+              "type": "text",
+              "uuid": "63a4dbd1-8258-4b47-aa90-4b621da40a7b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/vani/view_user.php?id=24",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "vani",
+            "view_user.php"
+          ],
+          "query": [
+            {
+              "key": "id",
+              "value": "24"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "view_workout",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "26",
+              "type": "text",
+              "uuid": "4538afe4-85b0-4073-a559-5e88ca708df2"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/vani/view_workout.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "vani",
+            "view_workout.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "view_activity",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "52359\n",
+              "type": "text",
+              "uuid": "1ffbe007-a808-483d-aabd-717be3b5b9f6"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/vani/view_activities.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "vani",
+            "view_activities.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "view_music",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "4",
+              "type": "text",
+              "uuid": "44e68530-3402-49b8-a2a4-073bea6a7ce4"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/vani/view_music.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "vani",
+            "view_music.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "insert_trainner",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "update_trainner",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete_trainner",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "1",
+              "type": "text",
+              "uuid": "15843946-c1a4-4cf7-93e3-800620efbc4d"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/vani/delete_trainer.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "vani",
+            "delete_trainer.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete_workout",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "delete_activity",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete_music",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "4",
+              "type": "text",
+              "uuid": "479050e7-d414-4304-a6ac-f61bf4307c4d"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.prakrutitech.xyz/vani/delete_music.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "vani",
+            "delete_music.php"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
